@@ -1,0 +1,40 @@
+I am working as an Application DBA for an Eagle Project for an asset management company.
+
+The job profile involves :
+
+Current Role and Responsibilities
+
+•Perform production support for an Investment Banking Client’s Eagle application databases. The support required a high-level oracle skill to monitor the oracle query performance that involve understanding Oracle internals such as Oracle OPTIMIZER and related functionalities. When there is a slow running event in the environment, I am involved in identifying if the slow running event is due to any Oracle query associated with the event. In the process of investigation into the system to find the problematic query I identify the exact code and query.
+
+•I use various tools such as TOAD, Oracle Enterprise Manager and in house Oracle queries that uses complex views such as V$SQL, V$SQLAREA, DBA_HIST_ACTIVE_SESS_HISTORY and many more. Once the problematic Oracle SQL query is identified, it's my responsibility to investigate why the query is running slow and how to improve the query performance. This involves the skill to read the advance plan of an Oracle query, which is a critical step to identify the bottlenecks in an execution plan. I investigates the predicate and filters of each steps of the query execution plans and decide if the query can be improved by changing any of its behavior on selection of the data by different steps of the execution plan and the order of joins of the oracle tables.
+
+•To studies the data distributions of the filter columns of the SQL query and determines the proper order that can be used to create an Oracle index that helps getting the required data faster as compared to getting the data directly from an Oracle table. While testing the new index I setup the test bed in the lower environment and write PL/SQL block and/or JAVA code to simulate a multi-threaded environment having multiple connections to the database for a load testing of the new components/functionality.
+
+•To identify the different performance parameters such as buffergets, IO, Elapsed time, CPU, logical reads, disk reads etc between the cursors of a query and determine which one of the cursor execution plans is better than the other execution plan. Once a better execution plan is identified I use various Oracle tuning technology such as SQL Plan Management (SPM) and Oracle SQL Profile to pin the good execution plan for the query so that the query can run faster. To create a SQL Profile for a desired execution plan is a very complex technique, which I am competent with. For that I identify the Outline of the query execution plan through the advance plan and create the desired profile and then test them on a workable query to produce the expected result.
+
+•During the process of query tuning I generates Oracle AWR reports and compare them between a good and a bad window. During this process I show the ability to understand the AWR report and identify the problematic section in the report then find a solution to the wait events that helps overall database server performance.
+
+•As a part of production support to get involved in all types of Oracle error. I research the error and identifies the cause of the error and resolve them. During this I perfectly prove my ability of understanding the Eagle uploaders, Eagle exporters, Eagle streams, control center, scheduler and message center. To coordinates with the vendor and Oracle Corporation through Eagle case and Oracle SR to make them resolved.
+
+•To get involved in the problem management and incident management process as a part of my role to track and resolve the incidents and problems through remedy. Using Jira and Service now in the process for change management.
+
+•Write complex database scripts after gathering business information from the users. This process involves creating SQL scripts from the data given by the users. Once the scripts are ready it is my responsibility to make sure the script is executed in the proper database environment after confirming with the change management team on approval process. The scripting process involves multiple communications with the requestor/business users to gather the requirement and the desired output.
+
+•As a part of week-end support and oncall, helping the developers to migrate the change into the database. Before doing any change to the database I take backup of the unchanged data and work with the requestor to roll it back incase of reverting the change for any reason.
+
+•Performs analysis on database parameters for the new database instance and advised on the new value that is appropriate for the new database, during the migration of the database from old server to new servers.
+
+•Working with configuration team to identify the new values and prepare cleanup scripts for the Eagle applications on the new environment. During this process it is important to scan all the data to find the old configuration values and replace them with the new configuration values. It is an important step in the new build, so the new application can run on the new servers.
+
+
+•During the eagle upgrades to the new versions my responsibility is to scan the install log file for any Oracle error and resolve them. Eagle install scripts are built by several complex Unix shell scripts and a numerous Oracle named and anonymous scripts. Once the reason of the error is identified I fix the error by scripting or tuning the problematic script. My responsibility also includes directly working with the vendor for any application specific install error. I am also responsible for doing and tracking the database customization after the eagle upgrades.
+
+•He works on database copy down activities to the lower region from the higher regions. During this activity I prepare the stops in the copydown tables that drives the flow logic of the pre and post copy-down shell script. To work with the business team to determine, what are the components to be backed up during the pre-step of the copydwon and what needs to be restored from the lower environment during the post process of the copydown.
+
+•Working on automation projects to automate the regular activities to save time during the critical window. The understanding of all the activities in and around the database that is related to the Eagle application helps write and enhance the database customization automation Unix shell scripts. Recently I have started to design around the automation through Ansible. 
+
+
+Learning AWS, Data Science and using Python and Java seems to be my best hobby now a days.
+
+Thanks
+Have a good day
